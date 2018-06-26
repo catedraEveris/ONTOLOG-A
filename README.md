@@ -45,6 +45,19 @@ En Keras el código está optimizado para utilizarlo con _word embeddings_ de di
 Resultados
 --------------------
 
+## TensorFlow
+
+(15 epochs)
+acc 94.90 - f1 63.65
+train loss: 0.4756
+
+## Keras
+
+avg f1 fold scores so far:  0.6769426773003454
+f1 fold scores:  [0.6815258040388931, 0.6723595505617977]
+final avg f1 fold scores:  0.6769426773003454
+
+
 
 Líneas futuras
 --------------------
