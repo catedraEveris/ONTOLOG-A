@@ -42,4 +42,4 @@ python rmClusterDuplicates.py
 
 [2] Thomas Jungblut [Keras Conv+BiLSTM for Named Entity Recognition] (https://github.com/thomasjungblut/ner-sequencelearning)
 
-[3] Guillaume Genthial [Named Entity Recognition with Tensorflow]
+[3] Guillaume Genthial [Named Entity Recognition with Tensorflow] (https://github.com/guillaumegenthial/sequence_tagging)
