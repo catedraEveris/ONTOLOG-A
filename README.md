@@ -1,7 +1,7 @@
 # ONTOLOGIA
 Reconocimiento de entidades + Clusterización
 
-Clusterización
+Clustering
 ------------------
 
 Para crear categorías y poder añadirlas a nuestra base de datos (ConLL) hemos usado clusterización a partir de [1], que se basa en el uso de word embeddingss (Glove.6B), y hemos utilzado de 300d para poder obtener clúster más específicos.
@@ -24,15 +24,33 @@ Hemos creado 3 códigos de etiquetado que etiquetan el coNLL 2003 a partir de lo
 python clustersToTags.py
 ```
 3. Comprobación de resultado y corrección de errores
-
-
-
-+ rmClusterDuplicates.py (Elimina todas las palabras dentro de un mismo clúster dobles)
-+ obtainCategoriesCONLL.py
-
+4. Ejecución de _obtainCategoriesCONLL.py_ para obtener las palabras que se han corregido o las palabras que no estaban etiquetadas para añadirlas a los clústeres existentes. 
+```
+python obtainCategoriesCONLL.py
+```
+5. Ejecución de _rmClusterDuplicates.py_ para eliminar los elementos duplicados de los clústers.
 ```
 python rmClusterDuplicates.py
 ```
+6. Realización del paso 2, pero con _filetrain.txt_
+
+NER
+--------------------
+
+Para la realización se han utilizado 2 redes BI-LSTM (recurrentes) una escrita con la librería Keras y otra con TF. 
+
+Mirar el README.md de cada uno en las carpetas correspondientes. 
+
+En Keras el código está optimizado para utilizarlo con _word embeddings_ de dimensión 300.
+
+RESULTADOS
+--------------------
+
+
+LÍNEAS FUTURAS
+--------------------
+
+Realizar el proceso de tagging con mas detalle ya que debido a la 
 
 
 ## Referencias
