@@ -62,6 +62,8 @@ final avg f1 fold scores:  0.6769426773003454
 
 ![Accuracy](https://github.com/catedraEveris/ONTOLOG-A/blob/master/tensorboard/acc.png)![Loss](https://github.com/catedraEveris/ONTOLOG-A/blob/master/tensorboard/loss.png)
 
+![fold0](https://github.com/catedraEveris/ONTOLOG-A/blob/master/Results/Fold0.png)![fold1](https://github.com/catedraEveris/ONTOLOG-A/blob/master/Results/Fold1.png)
+
 Líneas futuras
 --------------------
 
