@@ -1,0 +1,22 @@
+nlabels: 26
+pos_tags: {0: -x-, 1: nnp, 2: ':', 3: in, 4: nn, 5: ., 6: cd, 7: vbd, 8: dt, 9: cc,
+  10: nns, 11: to, 12: vb, 13: prp$, 14: ',', 15: rb, 16: md, 17: jj, 18: rp, 19: vbn,
+  20: vbg, 21: vbz, 22: vbp, 23: prp, 24: pos, 25: wp, 26: wdt, 27: (, 28: ), 29: sym,
+  30: nnps, 31: jjs, 32: $, 33: wrb, 34: '"', 35: ex, 36: wp$, 37: '''''', 38: rbr,
+  39: rbs, 40: fw, 41: jjr, 42: uh, 43: pdt, 44: ls, 45: nn|sym}
+feature_dim: 455
+ngram_dict: ['-08', -do, 08-, '199', 6-0, 8-3, 96-, '996', aid, ain, all, ame, and,
+  are, art, ast, ate, ati, ber, cha, che, com, con, cst, day, der, din, doc, ear,
+  eat, end, ent, ere, ern, ers, est, eve, for, fro, ght, hat, her, his, ian, ica,
+  igh, ill, ine, ing, int, ion, ist, ith, lan, lin, lli, man, mar, men, min, nal,
+  nce, nde, nte, ocs, ome, ond, one, ons, ore, ort, oun, our, out, ove, par, per,
+  pro, ran, rea, res, rom, rou, rt-, sai, sta, ste, str, tar, ted, ter, tha, the,
+  thi, tin, tio, tra, tur, und, ver, was, wer, wit]
+embedding_dim: 300
+total_feature_dim: 4550
+seq_len: 10
+labels: {0: O, 1: I-ORG-SPO, 2: I-LOC-UK, 3: I-MISC, 4: I-PER-UK, 5: I-PER-ARA, 6: I-LOC-ISL,
+  7: I-ORG-POL, 8: I-LOC-EUR, 9: I-PER-EUR, 10: I-LOC-AME, 11: I-PER-SPA, 12: I-ORG-COM,
+  13: I-LOC-CHI, 14: I-PER-ASI, 15: I-LOC-ASI, 16: I-ORG-MOT, 17: I-LOC-EEUU, 18: I-PER-FRA,
+  19: I-LOC-SPA, 20: I-LOC-AFR, 21: I-PER-GER, 22: I-PER-ITA, 23: I-LOC-GER, 24: I-LOC-ITA,
+  25: I-PER-POR}
