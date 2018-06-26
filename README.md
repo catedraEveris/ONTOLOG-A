@@ -15,10 +15,20 @@ Hemos realizado pruebas con diferente número de dimensiones y número de clúst
 
 Tagging
 --------------------
-Hemos creado 3 códigos de etiquetado que etiquetam el coNLL 2003 a partir de los clústers creados. Y se ha realizado 
 
-+ rmClusterDuplicates.py
-+ clustersToTags.py
+Hemos creado 3 códigos de etiquetado que etiquetan el coNLL 2003 a partir de los clústers creados. 
+
+1. Limpieza y composición manual de clústers. 
+2. Ejecución de clusterToTags.py en testa.txt y testb.txt
+```
+python clustersToTags.py
+```
+3. Comprobación de resultado y corrección de errores
+
+
+
++ rmClusterDuplicates.py (Elimina todas las palabras dentro de un mismo clúster dobles)
++  (Rellena el 
 + obtainCategoriesCONLL.py
 
 ```
