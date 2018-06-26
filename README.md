@@ -39,3 +39,5 @@ python rmClusterDuplicates.py
 ## Referencias
 
 [1] Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf).
+[2] Thomas Jungblut [Keras Conv+BiLSTM for Named Entity Recognition] (https://github.com/thomasjungblut/ner-sequencelearning)
+[3] Guillaume Genthial [Named Entity Recognition with Tensorflow]
