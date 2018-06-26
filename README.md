@@ -43,15 +43,16 @@ Mirar el README.md de cada uno en las carpetas correspondientes.
 
 En Keras el código está optimizado para utilizarlo con _word embeddings_ de dimensión 300.
 
-RESULTADOS
+Resultados
 --------------------
 
 
-LÍNEAS FUTURAS
+Líneas futuras
 --------------------
 
-Realizar el proceso de tagging con mas detalle ya que debido a la 
-
+- Realizar el proceso de tagging con mas detalle, ya que debido a la gran carga de trabajo que conlleva, el resultado del trabajo que hemos realizado es aceptable para un primer acercamiento, pero se debe comprobar más detalladamente el correcto etiquetado. 
+- Reducir el número de etiquetas y crear clústers correspondientes a las mismas. 
+- 
 
 ## Referencias
 
