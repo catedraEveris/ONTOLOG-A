@@ -19,7 +19,7 @@ Tagging
 Hemos creado 3 códigos de etiquetado que etiquetan el coNLL 2003 a partir de los clústers creados. 
 
 1. Limpieza y composición manual de clústers. 
-2. Ejecución de clusterToTags.py en testa.txt y testb.txt
+2. Ejecución de _clusterToTags.py_ en _testa.txt y testb.txt_
 ```
 python clustersToTags.py
 ```
@@ -28,7 +28,6 @@ python clustersToTags.py
 
 
 + rmClusterDuplicates.py (Elimina todas las palabras dentro de un mismo clúster dobles)
-+  (Rellena el 
 + obtainCategoriesCONLL.py
 
 ```
