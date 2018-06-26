@@ -52,7 +52,8 @@ Líneas futuras
 
 - Realizar el proceso de tagging con mas detalle, ya que debido a la gran carga de trabajo que conlleva, el resultado del trabajo que hemos realizado es aceptable para un primer acercamiento, pero se debe comprobar más detalladamente el correcto etiquetado. 
 - Reducir el número de etiquetas y crear clústers correspondientes a las mismas. 
-- 
+- Avanzar en el estudio de ontologías, realizando el siguiente paso que sería NEL (Name ENTITY LINKING)
+- Opcional, crear una interfaz gráfica para una mejor visión de los resultados
 
 ## Referencias
 
