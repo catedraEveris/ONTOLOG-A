@@ -8,7 +8,6 @@ Para crear categorías y poder añadirlas a nuestra base de datos (ConLL) hemos 
 
 ```
 python3 word_clustering.py --num_words 100000 --num_clusters 500 --vector_dim 300
-
 ```
 Hemos realizado pruebas con diferente número de dimensiones y número de clúster finales, pero el mejor resultado ha sido obtenido con 100000 palabras y 500 clústers.
 
