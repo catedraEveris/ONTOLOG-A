@@ -1,2 +1,3 @@
-# ONTOLOG-A
+# ONTOLOGIA
 Reconocimiento de entidades + Clusterización
+
