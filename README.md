@@ -64,6 +64,35 @@ final avg f1 fold scores:  0.6769426773003454
 
 ![fold0](https://github.com/catedraEveris/ONTOLOG-A/blob/master/Results/Fold0.png)![fold1](https://github.com/catedraEveris/ONTOLOG-A/blob/master/Results/Fold1.png)
 
+Collaboratory
+--------------------
+Aquí se detallan los pasos para la ejecución en el entorno de Google Drive. 
+
+1. Subir archivos a Drive
+2. Crear un nuevo archivo con doble click. (Connect more apps)
+3. Añadir Colab a Drive. 
+4. Cambiar configuración del entorno a Python 3 y GPU.
+5. Para linkear el colaborative con tu unidad de Google drive:
+```
+!apt-get install -y -qq software-properties-common python-software-properties module-init-tools
+!add-apt-repository -y ppa:alessandro-strada/ppa 2>&1 > /dev/null
+!apt-get update -qq 2>&1 > /dev/null
+!apt-get -y install -qq google-drive-ocamlfuse fuse
+from google.colab import auth
+auth.authenticate_user()
+from oauth2client.client import GoogleCredentials
+creds = GoogleCredentials.get_application_default()
+import getpass
+!google-drive-ocamlfuse -headless -id={creds.client_id} -secret={creds.client_secret} < /dev/null 2>&1 | grep URL
+vcode = getpass.getpass()
+!echo {vcode} | google-drive-ocamlfuse -headless -id={creds.client_id} -secret={creds.client_secret}
+
+
+!mkdir -p drive
+!google-drive-ocamlfuse drive
+```
+
+
 Líneas futuras
 --------------------
 
