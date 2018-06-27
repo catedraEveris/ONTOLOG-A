@@ -45,13 +45,22 @@ En Keras el código está optimizado para utilizarlo con _word embeddings_ de di
 Resultados
 --------------------
 
-## TensorFlow
+### TensorFlow ###
 
 (15 epochs)
 acc 94.90 - f1 63.65
 train loss: 0.4756
+```
+Michael   loves visiting Morocco   
+I-PER-EUR O     O        I-LOC-AFR 
 
-## Keras
+Li    Yung  loves playing in Japan     
+I-PER I-PER O     O       O  I-LOC-ASI 
+```
+
+Aquí podemos observar que al no estar muy balanceado el dataset y debido al gran número de etiquetas que existen no siempre se consigue el resultado óptimo.
+
+### Keras ###
 
 avg f1 fold scores so far:  0.6769426773003454
 
